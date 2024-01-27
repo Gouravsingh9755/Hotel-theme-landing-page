@@ -1,0 +1,172 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+
+html, body{
+
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%; 
+    /* background-color: aqua; */
+    padding: 0px 20px;
+   
+
+}
+
+.boxes{
+    height: 50%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.box1{
+    height: 100%;
+    width: 32%; 
+    background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1585549071959-94da9dbf8704?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTR8MjIyODk5Nnx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.box2{
+
+    height: 100%;
+    width: 32%; 
+    background-color: green;
+    background-image: url(https://images.unsplash.com/photo-1562790351-d273a961e0e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGhvdGVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.box3{
+
+    height: 100%;
+    width: 32%; 
+    background-color: blue;
+    background-image: url(https://images.unsplash.com/photo-1580041065738-e72023775cdc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mjl8MjIyODk5Nnx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+
+    height: 18%;
+    width: 100%;
+   font-size: 15px;
+   display: flex;
+   align-items: top;
+   justify-content: space-around;
+   margin-top: 10px;
+
+}
+
+
+
+.heading{
+
+    height: 30%;
+    width: 100%;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.heading h1{
+
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+button{
+
+    height:30px;
+    width: 90px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 9%;
+    left: 57.5%;
+    border-radius: 15px;
+ }  
+
+ button:hover{
+    background-color: rgb(83, 218, 236);
+    color: black;
+    }
+
+
+
+ .box2 lbutton{
+
+    height: 60px;
+    width: 60px;
+ }
+
+ .lb{
+
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ 
+ .rb{
+
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .lb:hover, .rb:hover{
+
+    background-color: black;
+    color: white;
+
+ }
+
+ 
+ .buttons{
+
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -20px;
+ }
+    
+
+
